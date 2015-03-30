@@ -41,7 +41,18 @@ Install
 
     bower install angular-elastic
 
-Include the `elastic.js` script provided by this component in your app, and add `monospaced.elastic` to your app’s dependencies.
+    npm install angular-elastic
+
+Include the `elastic.js` script provided by this component in your app.
+
+Make sure to add `monospaced.elastic` to your app’s module dependencies.
+
+```
+angular
+  .module('yourApp', [
+    'monospaced.elastic'
+  ]);
+````
 
 Support
 -------
@@ -51,7 +62,9 @@ __Modern browsers__ only—Internet Explorer 6, 7 & 8 retain their default texta
 Demo
 ----------------
 
-[monospaced.github.io/angular-elastic](http://monospaced.github.io/angular-elastic)
+* [monospaced.github.io/angular-elastic](http://monospaced.github.io/angular-elastic)
+* [plunker](http://plnkr.co/edit/9y6YLriAwsK9hqdu72WT?p=preview)
+
 
 How it works
 ------------
